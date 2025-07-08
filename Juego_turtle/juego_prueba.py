@@ -1,11 +1,12 @@
-import turtle
+import turtle  #pygames
 import random
 
 # Ventana
 ventana = turtle.Screen()
 ventana.title("Recolector de Estrellas")
-ventana.bgcolor("black")
+ventana.bgcolor("cyan") #RGB (RED GREEN BLUE, 155,20,0)
 ventana.setup(width=600 , height=600)
+
 
 
 # # Jugador
