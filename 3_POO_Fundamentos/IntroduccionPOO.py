@@ -14,7 +14,7 @@ class Animal:
         self.nombre = nombre
         self.edad = edad
         pass
-
+#creando metodos principales
     def hacerSonido(self):
         print("Hacer sonido")
 
@@ -25,6 +25,7 @@ class Animal:
 #Clase hija perro
 
 class Perro(Animal):
+    #utilizando metodo creado en la clase principal
     def hacerSonido(self):
         print(f"Mi nombre es {self.nombre} tengo {self.edad} años y hago !Guau!")
 
