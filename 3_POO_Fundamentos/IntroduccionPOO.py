@@ -10,9 +10,10 @@
 #CREA LA CLASE PRINCIPAL
 
 class Animal:
-    def __init__(self, nombre, edad):
+    def __init__(self, nombre, edad, estatura):
         self.nombre = nombre
         self.edad = edad
+        self.estatura = estatura
         pass
 #creando metodos principales
     def hacerSonido(self):
@@ -52,3 +53,6 @@ gato1 = Gato("Pelusa", 9)
 
 perro1.hacerSonido()
 gato1.hacerSonido()
+
+
+    
